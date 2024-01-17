@@ -38,8 +38,10 @@
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
                                 data-bs-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu">
-                                <li class="dropdown"><a class="dropdown-item" href="examination.html">EXAMINATION</a></li>
-                                <li class="dropdown"><a class="dropdown-item" href="scale-polish.html">SCALE & POLISH</a></li>
+                                <li class="dropdown"><a class="dropdown-item" href="examination.html">EXAMINATION</a>
+                                </li>
+                                <li class="dropdown"><a class="dropdown-item" href="scale-polish.html">SCALE &
+                                        POLISH</a></li>
                                 <li class="dropdown"><a class="dropdown-item" href="#">INVISALIGN</a></li>
                                 <li class="dropdown"><a class="dropdown-item" href="#">TEETH WHITENING</a></li>
                                 <li class="dropdown"><a class="dropdown-item" href="#">COMPOSITE BONDING</a></li>
@@ -67,34 +69,52 @@
     </section>
 
 
-    <!--About us start-->
 
     <section class="container py-4 py-md-6">
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col-md-6">
-                <div class="position-relative">
-                    <img src="assets/img/feature/who-are-we.webp" class="img-fluid" alt="Who Are We" title="Who Are We"
-                        width="450" height="500" loading="lazy">
-
-                    <div class="blue-box d-none d-md-block"></div>
-                    <div class="light-blue-box d-none d-md-block"></div>
-                </div>
+                <img src="assets/img/feature/dummy.jpg" class="img-fluid">
             </div>
-            <div class="col-md-6 mt-3 mt-md-0">
-                <h2>Scale & Polish</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ad pariatur at dolorem.
-                    Voluptatum adipisci ducimus sit praesentium ipsum, accusantium voluptates repellat numquam inventore
-                    asperiores mollitia aperiam doloremque debitis quo.</p>
+            <div class="col-md-6">
+                <h2>Get In Touch</h2>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ad pariatur at dolorem.
-                    Voluptatum adipisci ducimus sit praesentium ipsum, accusantium voluptates repellat numquam inventore
-                    asperiores mollitia aperiam doloremque debitis quo.</p>
+                <form class="needs-validation" novalidate="">
+                    <div class="row">
+                        <div class="col-md-6 mb-3 pb-1">
+                            <label for="cont-fn" class="mb-2">Your Name<sup class="text-danger ms-1">*</sup></label>
+                            <input class="form-control" type="text" id="cont-fn" placeholder="Your Name" required="">
+                        </div>
+                        <div class="col-md-6 mb-3 pb-1">
+                            <label for="cont-email" class="mb-2">Your Email<sup class="text-danger ms-1">*</sup></label>
+                            <input class="form-control" type="email" id="cont-email" placeholder="Your Email"
+                                required="">
+                            <div class="invalid-feedback">Please enter a valid email address!</div>
+                        </div>
+                        <div class="col-md-12 mb-3 pb-1">
+                            <label for="cont-phone" class="mb-2">Phone number</label>
+                            <input class="form-control bg-image-0" type="text" id="cont-phone" data-format="custom"
+                                data-delimiter="-" data-blocks="2 4 2 2" placeholder="Phone number">
+                        </div>
+                        <div class="col-md-12 mb-3 pb-1">
+                            <label for="cont-message" class="mb-2">Message<sup class="text-danger ms-1">*</sup></label>
+                            <textarea class="form-control" id="cont-message" rows="4"
+                                placeholder="Write your message here" required=""></textarea>
+                            <div class="invalid-feedback">Please write a message!</div>
+                        </div>
+                        <div class="">
+                            <button class="btn btn-primary" type="submit">Send Message</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
 
-    <!--About us end-->
-
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2965.0824050173574!2d-93.63905729999999!3d41.998507000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sWebFilings%2C+University+Boulevard%2C+Ames%2C+IA!5e0!3m2!1sen!2sus!4v1390839289319"
+            width="100%" height="350" frameborder="0" style="border:0"></iframe>
+    </section>
 
     <!--Footer section start-->
     <footer class="footer container-fluid">
