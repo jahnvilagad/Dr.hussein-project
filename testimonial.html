@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="assets/css/drhussein.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/tiny-slider.css">
 </head>
 
 <body>
@@ -56,12 +57,84 @@
         </div>
     </header>
 
-    <section class="container-fluid banner py-7" data-jarallax data-speed="0.25">
-        <div class="breadcrumb-bg border-radius-20"
-            style="background-image: url(assets/img/banner/breadcrumb-banner.webp);"></div>
-        <div class="container text-center">
-            <div class="text-center">
-                <h1 class="text-white">Testimonial</h1>
+    <section class="container-fluid banner" data-jarallax data-speed="0.25">
+        <div class="breadcrumb-bg" style="background-image: url(assets/img/banner/banner-dr-hussain.webp);"></div>
+        <div class="container">
+            <h1 class="text-white">Testimonial</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Testimonial</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+
+    <section class="container py-6">
+        <div class="tns-carousel-wrapper">
+            <div class="tns-carousel-inner"
+                data-carousel-options="{&quot;mode&quot;: &quot;gallery&quot;, &quot;nav&quot;: false}">
+                <!-- Item-->
+                <div>
+                    <div class="pb-3 pb-md-0 ps-md-7 ms-md-3">
+                        <div class="bg-size-cover bg-position-center rounded-3 py-7"
+                            style="background-image: url(assets/img/feature/composite-bonding.jpg);">
+                            <div class="d-md-flex align-items-center ms-md-n7 text-center text-md-left">
+                                <div class="card card-body d-none d-md-flex py-grid-gutter px-grid-gutter border-0 shadow-lg me-6 scale-up"
+                                    style="max-width: 28rem;">
+                                    <blockquote class="blockquote">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris.</p>
+                                        <p class="blockquote-footer">Paul Anderson, CEO Company Ltd.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-md-none mt-n6 px-3 scale-up">
+                            <div class="card card-body py-grid-gutter px-grid-gutter border-0 shadow mx-auto"
+                                style="max-width: 28rem;">
+                                <blockquote class="blockquote">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris.</p>
+                                    <p class="blockquote-footer">Paul Anderson, CEO Company Ltd.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item-->
+                <div>
+                    <div class="pb-3 pb-md-0 ps-md-7 ms-md-3">
+                        <div class="bg-size-cover bg-position-center rounded-3 py-7"
+                            style="background-image: url(assets/img/feature/composite-bonding.jpg);">
+                            <div class="d-md-flex align-items-center ms-md-n7 text-center text-md-left">
+                                <div class="card card-body d-none d-md-flex py-grid-gutter px-grid-gutter border-0 shadow-lg me-6 scale-up"
+                                    style="max-width: 28rem;">
+                                    <blockquote class="blockquote">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris.</p>
+                                        <p class="blockquote-footer">Miguel Sánchez, CEO Company Ltd.</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-md-none mt-n6 px-3 scale-up">
+                            <div class="card card-body py-grid-gutter px-grid-gutter border-0 shadow mx-auto"
+                                style="max-width: 28rem;">
+                                <blockquote class="blockquote">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris.</p>
+                                    <p class="blockquote-footer">Miguel Sánchez, CEO Company Ltd.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -160,6 +233,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
     <script src="assets/js/drhussein.js"></script>
     <script src="assets/js/custom.js"></script>
 </body>

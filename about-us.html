@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr Hussein &#8211; My WordPress Blog</title>
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="canonical" href="#" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="og:title" property="og:title" content="The Title of Your Article">
+    <meta name="twitter:card" content="summary">
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo-16x16.png">
 
     <link rel="stylesheet" href="assets/css/drhussein.css">
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -56,13 +70,16 @@
         </div>
     </header>
 
-    <section class="container-fluid banner py-7" data-jarallax data-speed="0.25">
-        <div class="breadcrumb-bg border-radius-20"
-            style="background-image: url(assets/img/banner/breadcrumb-banner.webp);"></div>
-        <div class="container text-center">
-            <div class="text-center">
-                <h1 class="text-white">About Us</h1>
-            </div>
+    <section class="container-fluid banner" data-jarallax data-speed="0.25">
+        <div class="breadcrumb-bg" style="background-image: url(assets/img/banner/banner-dr-hussain.webp);"></div>
+        <div class="container">
+            <h1 class="text-white">About Us</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                </ol>
+            </nav>
         </div>
     </section>
 
@@ -73,15 +90,15 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="position-relative">
-                    <img src="assets/img/feature/who-are-we.webp" class="img-fluid" alt="Who Are We" title="Who Are We"
-                        width="450" height="500" loading="lazy">
+                    <img src="assets/img/feature/dr-razan-hussein.webp" class="img-fluid" alt="Dr Razan Hussein"
+                        title="Dr Razan Hussein" width="450" height="600" loading="lazy">
 
-                    <div class="blue-box d-none d-md-block"></div>
-                    <div class="light-blue-box d-none d-md-block"></div>
+                    <!-- <div class="blue-box d-none d-md-block"></div>
+                    <div class="light-blue-box d-none d-md-block"></div> -->
                 </div>
             </div>
             <div class="col-md-6 mt-3 mt-md-0">
-                <h2>About Us</h2>
+                <h2>About Me</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ad pariatur at dolorem.
                     Voluptatum adipisci ducimus sit praesentium ipsum, accusantium voluptates repellat numquam inventore
                     asperiores mollitia aperiam doloremque debitis quo.</p>
@@ -95,133 +112,64 @@
 
     <!--About us end-->
 
-    <!--our team start-->
-    <section class="">
+    <section class="mb-4">
         <div class="container">
             <div class="text-center">
-                <h2>MEET OUR TEAM</h2>
+                <h2>Why Choose Us</h2>
             </div>
 
             <div class="row">
-                <div class="col-md-4">
-                    <div class="team__item set-bg" style="background-image: url('assets/img/feature/dummy.jpg');">
-                        <!-- <img src="assets/img/feature/dummy.jpg"> -->
-
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <span>Lorem ipsum</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus natus
-                                inventore, qui tenetur</p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="text-center">
+                        <i class="bi bi-prescription2 fs-1"></i>
+                        <h3>Lorem ipsum dolor sit</h3>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="team__item set-bg" style="background-image: url('assets/img/feature/dummy.jpg');">
-                        <!-- <img src="assets/img/feature/dummy.jpg"> -->
-
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <span>Lorem ipsum</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus natus
-                                inventore, qui tenetur</p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="text-center">
+                        <i class="bi bi-prescription2 fs-1"></i>
+                        <h3>Lorem ipsum dolor sit</h3>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="team__item set-bg" style="background-image: url('assets/img/feature/dummy.jpg');">
-                        <!-- <img src="assets/img/feature/dummy.jpg"> -->
-
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <span>Lorem ipsum</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus natus
-                                inventore, qui tenetur</p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="text-center">
+                        <i class="bi bi-prescription2 fs-1"></i>
+                        <h3>Lorem ipsum dolor sit</h3>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="team__item set-bg" style="background-image: url('assets/img/feature/dummy.jpg');">
-                        <!-- <img src="assets/img/feature/dummy.jpg"> -->
-
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <span>Lorem ipsum</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus natus
-                                inventore, qui tenetur</p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team__item set-bg" style="background-image: url('assets/img/feature/dummy.jpg');">
-                        <!-- <img src="assets/img/feature/dummy.jpg"> -->
-
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <span>Lorem ipsum</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus natus
-                                inventore, qui tenetur</p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="team__item set-bg" style="background-image: url('assets/img/feature/dummy.jpg');">
-                        <!-- <img src="assets/img/feature/dummy.jpg"> -->
-
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h3>Lorem ipsum dolor sit</h3>
-                                <span>Lorem ipsum</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus natus
-                                inventore, qui tenetur</p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="text-center">
+                        <i class="bi bi-prescription2 fs-1"></i>
+                        <h3>Lorem ipsum dolor sit</h3>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!--our team end-->
+
+
+    <section class="py-4 py-lg-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 order-last order-lg-1 mt-3 mt-lg-0">
+                    <h2>Lorem ipsum dolor sit</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ad pariatur at dolorem.
+                        Voluptatum adipisci ducimus sit praesentium ipsum, accusantium voluptates repellat numquam
+                        inventore
+                        asperiores mollitia aperiam doloremque debitis quo.</p>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ad pariatur at dolorem.
+                        Voluptatum adipisci ducimus sit praesentium ipsum, accusantium voluptates repellat numquam
+                        inventore
+                        asperiores mollitia aperiam doloremque debitis quo.</p>
+                </div>
+                <div class="col-md-12 col-lg-6 order-1 order-lg-last">
+                    <img src="assets/img/feature/dummy.jpg" class="img-fluid" alt="" title="" width="" height=""
+                        loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--Footer section start-->
     <footer class="footer container-fluid">
