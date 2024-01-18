@@ -14,7 +14,7 @@
 
 <body>
 
-    <header class="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky" data-scroll-header
+    <header class="header navbar navbar-expand-lg navbar-dark navbar-floating navbar-sticky" data-scroll-header
         data-fixed-element>
         <div class="container px-0 px-xl-3">
             <button class="navbar-toggler ms-n2 me-2" type="button" data-bs-toggle="offcanvas"
@@ -59,8 +59,18 @@
     </header>
 
     <!-- Hero-->
-    <section class="slider-banner">
-        <!-- Fade transition + Layer animations -->
+    <section class="banner bg-dark py-7" data-jarallax data-speed="0.25">
+        <div class="breadcrumb-bg" style="background-image: url(assets/img/banner/slider-banner-1.webp);"></div>
+        <div class="container py-5 py-sm-6 text-center">
+            <div class="py-md-5">
+                <h1 class="text-light pb-1">Lorem ipsum dolor sit, amet consectetur</h1>
+                <p class="fs-lg text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero-->
+    <!-- <section class="slider-banner">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -104,7 +114,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </section>
+    </section> -->
 
     <!--Who Are We start-->
 
@@ -137,60 +147,51 @@
 
     <!--services start-->
     <section class="my-5">
-        <div class="bg-primary-linear position-relative">
-            <div class="elementor-shape-top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                    <path class="elementor-shape-fill"
-                        d="M1000,4.3V0H0v4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z"></path>
-                </svg>
-            </div>
+        <div class="bg-primary position-relative">
 
-            <div class="py-7">
-
-
+            <div class="py-6">
                 <div class="text-center">
-                    <h2 class="">Our Services</h2>
+                    <h2 class="text-white">Our Services</h2>
                 </div>
 
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 mt-3 mt-md-0">
-                            <a href="#">
-                                <div class="service-bg h-100 position-relative">
-                                    <div class="service-img">
-                                        <img src="assets/img/feature/invisalign-service.png" class="img-fluid"
-                                            alt="Invisalign Service" title="Invisalign Service" width="300" height="290"
-                                            loading="lazy">
-                                    </div>
-
+                    <div class="">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="">
+                                    <img src="assets/img/feature/dummy.jpg" class="img-fluid" alt="" title="" width=""
+                                        height="" loading="lazy">
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 mt-3 mt-md-0">
-                            <img src="assets/img/feature/dummy.jpg">
-                        </div>
-                        <div class="col-md-4 mt-3 mt-md-0">
-                            <img src="assets/img/feature/dummy.jpg">
-                        </div>
-                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="fs-1 text-cabinet text-white">Examination</p>
 
-
-
-                    <div class="row">
-                        <div class="col-md-8">
-
-                        </div>
-                        <div class="col-md-4">
-                            <div class="">
-                                <div class="col-md-12">
-
-                                </div>
-                                <div class="col-md-12">
-
-                                </div>
+                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam cum amet commodi
+                                    possimus, rem qui eaque maxime dolore dignissimos, aspernatur totam repudiandae
+                                    consequuntur temporibus error voluptate! Voluptatem, iure! Animi?</p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="mt-4 mt-md-6">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 order-last order-md-1">
+                                <p class="fs-1 text-cabinet text-white">Scale & Polish</p>
+
+                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nam cum amet commodi
+                                    possimus, rem qui eaque maxime dolore dignissimos, aspernatur totam repudiandae
+                                    consequuntur temporibus error voluptate! Voluptatem, iure! Animi?</p>
+                            </div>
+                            <div class="col-md-6 order-1 order-md-last">
+                                <div class="">
+                                    <img src="assets/img/feature/dummy.jpg" class="img-fluid" alt="" title="" width=""
+                                        height="" loading="lazy">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
