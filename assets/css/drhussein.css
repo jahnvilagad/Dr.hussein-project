@@ -10676,9 +10676,9 @@ progress {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #737491;
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.03);
 	background-clip: padding-box;
-	border: 1px solid #dfdfeb;
+	border: 2px solid rgba(255, 255, 255, 0.21);
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -11562,7 +11562,7 @@ textarea.form-control.is-invalid {
 .btn {
 	display: inline-block;
 	font-weight: 400;
-	line-height: 1.5;
+	line-height: 1;
 	color: #737491;
 	text-align: center;
 	white-space: nowrap;
@@ -13197,6 +13197,7 @@ fieldset:disabled .btn {
 		flex-grow: 0;
 		padding: 0;
 		overflow-y: visible;
+		justify-content: center;
 	}
 }
 
@@ -13447,6 +13448,7 @@ fieldset:disabled .btn {
 
 .navbar-dark .navbar-nav .nav-link {
 	color: #fff;
+	text-transform: uppercase;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
