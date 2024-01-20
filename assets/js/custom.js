@@ -22,29 +22,34 @@ $(function () { // Dropdown toggle
 });
 
 
-const swiperTestmonials = new Swiper('.swiper-testmonials', {
+ 
+var swiper = new Swiper(".slide-content", {
+  slidesPerView: 2,
+  spaceBetween: 25,
   loop: true,
-  slidesPerView: 1,
-  grabCursor: true,
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-testmonials-next',
-    prevEl: '.swiper-button-testmonials-prev',
+  centerSlide: 'true',
+  fade: 'true',
+  grabCursor: 'true',
+  dots: 'false',
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
   },
-  breakpoints: {
-    // when window width is >= 640px
-    500: {
-      slidesPerView: 1.2,
-    },
-    780: {
-      slidesPerView: 1.8,
-    },
-    1300: {
-      slidesPerView: 2.6,
-    },
-    1630: {
-      slidesPerView: 2.2,
-    }
-  }
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 
+  breakpoints:{
+      0: {
+          slidesPerView: 1,
+      },
+      520: {
+          slidesPerView: 2,
+      },
+      950: {
+          slidesPerView: 2,
+      },
+  },
 });
