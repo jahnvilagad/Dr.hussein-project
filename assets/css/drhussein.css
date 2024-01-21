@@ -23437,18 +23437,18 @@ iframe {
 }
 
 ::-moz-selection {
-	background: #252626;
-	color: #fff;
+	background: #fff;
+	color: #252626;
 }
 
 ::selection {
-	background: #252626;
-	color: #fff;
+	background: #fff;
+	color: #252626;
 }
 
 ::-moz-selection {
-	background: #252626;
-	color: #fff;
+	background: #fff;
+	color: #252626;
 }
 
 @media(min-width: 1280px) {
@@ -24333,8 +24333,14 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .btn-outline-primary {
-	border-color: #fff;
-	color: #fff !important;
+    border-color: #fff;
+    color: #fff !important;
+    border-width: 2px;
+    font-weight: 700;
+}
+
+.navbar-stuck .btn-outline-primary{
+	border-color: #111111;
 }
 
 .btn-outline-success {

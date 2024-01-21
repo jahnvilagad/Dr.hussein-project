@@ -97,7 +97,7 @@
 }
 
 .banner p {
-    font-size: 28px;
+    font-size: 24px;
     text-transform: uppercase;
     position: relative;
 }
@@ -205,7 +205,7 @@
 }
 
 .accordion-item .accordion-button {
-    border-radius: 26px !important;
+    border-radius: 10px !important;
 }
 
 .swiper-button-next::after,
@@ -233,7 +233,7 @@
 .form-control:focus {
     color: rgb(115, 116, 145);
     background-color: rgba(255, 255, 255, 0.03);
-    border-color:rgba(255, 255, 255, 0.21);
+    border-color: rgba(255, 255, 255, 0.21);
     outline: 0px;
     box-shadow: transparent 0px 0px 0px 0px, rgba(118, 109, 244, 0.15) 0px 0.375rem 0.625rem -0.3125rem;
 }
@@ -311,24 +311,8 @@
 }
 
 .description {
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
-}
-
-.button {
-    border: none;
-    font-size: 16px;
-    color: #FFF;
-    padding: 8px 16px;
-    background-color: #4070F4;
-    border-radius: 6px;
-    margin: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.button:hover {
-    background: #265DF2;
 }
 
 .swiper-navBtn {
@@ -409,39 +393,6 @@
     border: 2px solid rgba(255, 255, 255, 0.21);
 }
 
-.elementor-shape-top {
-    top: -1px;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    line-height: 0;
-    direction: ltr;
-}
-
-.elementor-shape-fill {
-    fill: #fff;
-    transform-origin: center;
-    transform: rotateY(0deg);
-}
-
-.bg-primary-linear svg {
-    height: 60px;
-    display: block;
-    width: calc(100% + 1.3px);
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.service-bg {
-    background-color: #D8E6F3;
-    border-radius: 10px;
-}
-
-.service-bg:hover {
-    opacity: 0.05;
-    background-color: #217DEA;
-}
 
 .service-img {
     position: absolute;
@@ -449,26 +400,6 @@
     right: 1px;
 }
 
-.service-bg::before {
-    content: '';
-    background-image: url(../img/feature/invisalign.jpg);
-    background-size: cover;
-    background-position: 100% center;
-    width: 100%;
-    height: 100%;
-    display: block;
-    border-radius: 10px;
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.service-bg:hover:before {
-    opacity: 1;
-}
-
-.border-radius-top-right {
-    border-radius: 120px 120px 0 0;
-}
 
 .footer .border-end {
     border-right: 1px solid #1153A133 !important;
@@ -476,187 +407,6 @@
 
 .footer .border-bottom {
     border-bottom: 1px solid #1153A133 !important;
-}
-
-/*testimonial start*/
-.section-testmonials {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.column-testmonials {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 20%;
-}
-
-.section-details {
-    border-left: 10px solid #FFCB00;
-    padding-left: 20px;
-}
-
-
-.name-section {
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #650061 !important;
-    line-height: 1.2em;
-    margin: 0;
-}
-
-.title-section b {
-    color: #650061;
-}
-
-.title-section {
-    color: #000;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-}
-
-.navigation-testmonials {
-    display: flex;
-    gap: 10px;
-    margin-top: 1rem;
-}
-
-
-.swiper-testmonials {
-    width: 80%;
-    overflow: hidden;
-    position: relative;
-}
-
-@media (max-width: 768px) {
-    .section-testmonials {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .swiper-testmonials {
-        width: 100%;
-    }
-}
-
-.swiper-testmonials .swiper-slide {
-    border-radius: 10px;
-    background: #fff;
-    display: flex;
-    padding: 30px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    transform: scale(0.9) !important;
-    filter: blur(1px) grayscale(0.5);
-    transition: 0.2s;
-    height: 100%;
-}
-
-.swiper-testmonials .swiper-slide * {
-    margin: 0;
-}
-
-.swiper-testmonials .swiper-slide-active {
-    filter: blur(0px) !important;
-    transform: scale(1) !important;
-}
-
-.card-slide {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.head-slide {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-slide {
-    display: flex;
-    align-items: center;
-    gap: 20px
-}
-
-
-.text-slide {
-    font-size: 1rem;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.title-slide p {
-    color: #217DEA;
-}
-
-.swiper-button-testmonials-next,
-.swiper-button-testmonials-prev {
-    cursor: pointer;
-    width: 3rem;
-    height: 3rem;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    text-align: center;
-    color: #fff;
-    line-height: 44px;
-}
-
-.swiper-button-testmonials-next:hover,
-.swiper-button-testmonials-prev:hover {
-    background-color: #fff;
-    color: #737491;
-}
-
-
-@media (max-width: 768px) {
-    .header-slide svg {
-        width: 50px;
-    }
-
-    .title-slide h4 {
-        font-size: 14px;
-    }
-
-    .swiper-testmonials .swiper-slide {
-        padding: 20px;
-    }
-}
-
-/*testimonial end*/
-
-.dentist-img {
-    width: 285px;
-    height: 250px;
-}
-
-.dentist-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.text-cabinet {
-    font-family: "CabinetGrotesk-Regular", sans-serif;
-}
-
-
-.breadcrumb-bg::after {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    content: '';
-    top: 0;
-    left: 0;
-    background-color: #26252575;
 }
 
 /*gallery css start*/
@@ -775,19 +525,6 @@
     margin-bottom: 0;
 }
 
-.dental-bg::after {
-    content: '';
-    background-image: url(../img/feature/dental-bg.png);
-    background-position: 100% center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 512px;
-    height: 512px;
-    position: absolute;
-    right: -19rem;
-    top: 0;
-}
-
 .contact-info i {
     margin-top: -5px;
 }
@@ -840,12 +577,48 @@
     top: 0;
 }
 
-h2, .h2 {
-    font-size: 3rem;
+h2,
+.h2 {
+    font-size: 5rem;
 }
 
-h3, .h3 {
+h3,
+.h3 {
     font-size: 2.5rem;
+}
+
+.about-me p{
+    font-size: 22px;
+}
+
+.btn-primary{
+    font-size: 1rem;
+}
+
+.blog .card .card-body h3{
+    font-size: 2rem;
+}
+
+.blog-detail h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.why-choose-section .card{
+
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    border: unset;
+    padding: 25px 10px;
+
+
+}
+.border-bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+}
+.border-radius-10{
+
+    border-radius: 10px;
 }
 
 @media (max-width:1440px) {
@@ -868,20 +641,25 @@ h3, .h3 {
     .dentist-img {
         width: 100%;
     }
-    .slider-img img{
+
+    .slider-img img {
         width: 38%;
     }
+
     .swiper-wrapper .card-footer p::before {
         width: 245px;
     }
 }
 
 @media (max-width:991px) {
-    .banner p::before,.banner p::after{
+
+    .banner p::before,
+    .banner p::after {
         content: unset;
         background: unset;
         position: unset;
     }
+
     .banner img {
         width: 51%;
     }
@@ -898,22 +676,33 @@ h3, .h3 {
     .border-radius-20 {
         border-radius: 15px;
     }
-    .service-border:after{
+
+    .service-border:after {
         background: unset;
         content: unset;
         position: unset;
     }
+
     .swiper-wrapper .card-footer p::before {
         width: 177px;
     }
+
     .footer ul li {
         margin: 0 7px;
     }
+
     .navbar-expand-lg.navbar-sticky.navbar-stuck .navbar-stuck-logo {
         display: block;
     }
+
     .navbar-expand-lg.navbar-sticky.navbar-stuck .navbar-floating-logo {
         display: none !important;
+    }
+
+    .slider-img::after {
+        content: unset;
+        background-image: unset;
+        position: absolute;
     }
 }
 
@@ -949,32 +738,54 @@ h3, .h3 {
         line-height: 1.25;
         line-height: 30px;
     }
-    .navbar-brand img{
-        width: 48%;
-    }
+
     .title-icon::after {
         right: -2rem;
         width: 20px;
         height: 20px;
         top: 5px;
     }
+
     .title-icon::before {
         left: -2rem;
         width: 20px;
         height: 20px;
         top: 5px;
     }
-    h2, .h2 {
+
+    h2,
+    .h2 {
         font-size: 2rem;
     }
-    .swiper-button-next, .swiper-button-prev {
+
+    .swiper-button-next,
+    .swiper-button-prev {
         width: 35px !important;
         height: 35px !important;
     }
+
+    .navbar>.container-fluid {
+        flex-wrap: nowrap;
+    }
+    .navbar-brand {
+        width: 45%;
+    }
+    .header .btn-outline-primary {
+        font-size: 1rem;
+        padding: 6px 10px;
+    }
+    .navbar{
+        padding: 0 10px;
+    }
+    .slider-img img{
+        margin-bottom: 1rem;
+    }
 }
 
-@media (min-width: 1200px){
-    h3, .h3 {
+@media (min-width: 1200px) {
+
+    h3,
+    .h3 {
         font-size: 3.5rem;
         font-weight: 700;
     }
