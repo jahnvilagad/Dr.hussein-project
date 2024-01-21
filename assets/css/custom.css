@@ -587,24 +587,24 @@ h3,
     font-size: 2.5rem;
 }
 
-.about-me p{
+.about-me p {
     font-size: 22px;
 }
 
-.btn-primary{
+.btn-primary {
     font-size: 1rem;
 }
 
-.blog .card .card-body h3{
+.blog .card .card-body h3 {
     font-size: 2rem;
 }
 
-.blog-detail h2{
+.blog-detail h2 {
     font-size: 2.5rem;
     line-height: 1.2;
 }
 
-.why-choose-section .card{
+.why-choose-section .card {
 
     background-color: rgba(255, 255, 255, 0);
     border-radius: 10px;
@@ -613,12 +613,35 @@ h3,
 
 
 }
+
 .border-bottom {
     border-bottom: 1px solid rgba(255, 255, 255, 0.21);
 }
-.border-radius-10{
+
+.border-radius-10 {
 
     border-radius: 10px;
+}
+
+.custom-404 h1 {
+    font-size: 16rem;
+    color: #fff;
+    text-shadow: 2px 3px 7px #b8b8b8;
+}
+
+.card-img, .card-img-bottom {
+   border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+}
+.card-img{
+    width: 386px;
+    height: 257px;
+}
+
+.card-img, .card-img-top, .card-img-bottom {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
 @media (max-width:1440px) {
@@ -652,6 +675,15 @@ h3,
 }
 
 @media (max-width:991px) {
+
+    h2,
+    .h2 {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 16px;
+    }
 
     .banner p::before,
     .banner p::after {
@@ -707,6 +739,23 @@ h3,
 }
 
 @media (max-width:767px) {
+    .blog-detail h2 {
+        font-size: 2rem;
+    }
+    .ag-photo-gallery_list{
+        margin-bottom: 0;
+    }
+    .footer-border-right{
+        border-right: unset !important;
+    }
+    .about-me p {
+        font-size: 16px;
+    }
+
+    .custom-404 h1 {
+        font-size: 6rem;
+    }
+
     .border-radius-top-right {
         border-radius: unset;
     }
@@ -767,17 +816,21 @@ h3,
     .navbar>.container-fluid {
         flex-wrap: nowrap;
     }
+
     .navbar-brand {
         width: 45%;
     }
+
     .header .btn-outline-primary {
         font-size: 1rem;
         padding: 6px 10px;
     }
-    .navbar{
-        padding: 0 10px;
+
+    .navbar {
+        padding: 7px 10px;
     }
-    .slider-img img{
+
+    .slider-img img {
         margin-bottom: 1rem;
     }
 }
